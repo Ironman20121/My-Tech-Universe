@@ -11,7 +11,7 @@ const [listSkills] = useState([
  {
     name: 'C/C++',
     des:"Greetings! 👋 I'm a C++ enthusiast with two years of hands-on experience. From laying the groundwork during my undergrad to thriving in the dynamic environment of TCS, my C++ journey has been quite the adventure. At TCS, I honed my skills in socket programming for a high-stakes MCX trading platform, mastering threading for optimal performance. Object-oriented programming and smart pointers became my go-to tools for crafting efficient and scalable solutions. With a strong foundation in the STL, I'm on a mission to elevate C++ development, one project at a time! 🚀👨‍💻 ",
-    icon: '/icon_c++.svg' ,
+    icon: '/My-Tech-Universe/icon_c++.svg' ,
     keySkills:'Socket Programming ,CMAKE,DSA,Threading,Smart Pointers, Object-Oriented Programming (OOP),STL (Standard Template Library)'
 },
 {
@@ -35,12 +35,12 @@ const [listSkills] = useState([
 },
 {
   name:'C# .NET Adventure 🚀',
-  icon:'/icons-c-sharp.png',
+  icon:'/My-Tech-Universe/icons-c-sharp.png',
   des:"🤝 Collaborated with an alpha client on C# code for broadcast packet flow, turning complex challenges into shared victories 🕹️ Crafted games in Unity using the magical language of C# during my undergraduate escapades, turning code into interactive experiences 🌟 Though a complete C# beginner, I embarked on a journey of endless possibilities, eager to bring my coding superpowers to life in real-world projects.Ready for the next level of C# adventures and looking forward to turning code into everyday magic! ✨",
   keySkills:""
 },{
   name:'Coding Odyssey 🚀: Git Version Control and Debugging Delights 🕵️',
-  icon:'/icons8-git-48.png',
+  icon:'/My-Tech-Universe/icons8-git-48.png',
   des:"In my coding journey, 🚀 Git has been my trusty companion, seamlessly woven into every development endeavor. With its version control prowess, I've efficiently managed code repositories, ensuring collaboration flows smoothly. Embracing the art of debugging, I've navigated the intricacies of tools like 🕵️ EDB, GDB, PDB, Cutter, and Ghidra, unraveling complexities and transforming obstacles into insights. Whether it's tracking code changes or delving into the depths of binary analysis, these tools have become indispensable allies, shaping my coding odyssey into a meticulous and insightful adventure. 🛠️",
   keySkills:""
 }
