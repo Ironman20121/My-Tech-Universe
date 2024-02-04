@@ -36,7 +36,6 @@ main{
     width: 1300px;
     max-width: 100%;
     margin: auto;
-    
 }
 
 /* navbar */
@@ -141,7 +140,7 @@ section.home{
         & .card{
             display: inline-flex;
             flex-direction: column;
-            width: min(100%, 380px);
+            width: min(100%, 400px);
             box-shadow: 0 150px 150px #e945e333;
             transition: 0.5s;
             &:hover{
@@ -149,7 +148,7 @@ section.home{
             }
             & img{
                 padding-top: 10%;
-                width: 380px;
+                width: 100%;
                 height: min(50vh, 700px);
                 object-fit: cover;
                 object-position: top;
@@ -437,4 +436,15 @@ section.contacts{
             left: 0;
         } 
     }
+}
+section.home .avatar .card img {
+    max-width: 100%; /* Set maximum width to 100% */
+    max-height: 100%; /* Set maximum height to 100% */
+    width: auto; /* Allow the image to resize while maintaining its aspect ratio */
+    height: auto; /* Allow the image to resize while maintaining its aspect ratio */
+    object-fit: cover; /* Control how the image is resized within its container */
+    object-position: top;
+    clip-path: polygon(81% 0, 100% 18%, 100% 100%, 0 100%, 0 0);
+    border-radius: 10px;
+    box-shadow: 0 20px 40px #010824;
 }
