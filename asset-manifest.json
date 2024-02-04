@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/My-Tech-Universe/static/css/main.341e9422.css",
+    "main.css": "/My-Tech-Universe/static/css/main.3aad93e0.css",
     "main.js": "/My-Tech-Universe/static/js/main.e73157cc.js",
     "static/js/592.7f72a991.chunk.js": "/My-Tech-Universe/static/js/592.7f72a991.chunk.js",
     "index.html": "/My-Tech-Universe/index.html",
-    "main.341e9422.css.map": "/My-Tech-Universe/static/css/main.341e9422.css.map",
+    "main.3aad93e0.css.map": "/My-Tech-Universe/static/css/main.3aad93e0.css.map",
     "main.e73157cc.js.map": "/My-Tech-Universe/static/js/main.e73157cc.js.map",
     "592.7f72a991.chunk.js.map": "/My-Tech-Universe/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.341e9422.css",
+    "static/css/main.3aad93e0.css",
     "static/js/main.e73157cc.js"
   ]
 }
