@@ -35,7 +35,7 @@ function Contacts() {
       🤝 Get in Touch
       </div>
       <div className='des' ref={(el) => el && divs.current.push(el)}>
-        <p>Let's connect! Whether you prefer the cozy feel of 🏠 home, a friendly ☎️ call, a quick ✉️ email, or a professional touch on 🌐 LinkedIn</p>
+        <p style={{ display: 'flex', justifyContent: 'center' }}>Let's connect! Whether you prefer the cozy feel of 🏠 home, a friendly ☎️ call, a quick ✉️ email, or a professional touch on 🌐 LinkedIn</p>
       </div>
       <div className='list' ref={(el) => el && divs.current.push(el)}>
         {listContacts.map((value, key) => (

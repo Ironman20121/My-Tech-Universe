@@ -41,7 +41,7 @@ CustomHook(scrollTab, divs);
               </div>
               <div className="content">
                 <h3>{value.name}</h3>
-                <div className="des">{value.des}</div>
+                <div className="des" style={{ display: 'flex', justifyContent: 'center' }}>{value.des}</div>
               </div>
             </div>
           ))

@@ -36,6 +36,7 @@ main{
     width: 1300px;
     max-width: 100%;
     margin: auto;
+    
 }
 
 /* navbar */
@@ -140,7 +141,7 @@ section.home{
         & .card{
             display: inline-flex;
             flex-direction: column;
-            width: min(100%, 400px);
+            width: min(100%, 380px);
             box-shadow: 0 150px 150px #e945e333;
             transition: 0.5s;
             &:hover{
@@ -148,7 +149,7 @@ section.home{
             }
             & img{
                 padding-top: 10%;
-                width: 100%;
+                width: 380px;
                 height: min(50vh, 700px);
                 object-fit: cover;
                 object-position: top;
