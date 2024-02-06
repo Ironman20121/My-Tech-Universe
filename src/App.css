@@ -140,7 +140,7 @@ section.home{
         & .card{
             display: inline-flex;
             flex-direction: column;
-            width: min(100%, 400px);
+            width: min(100%, 300px);
             box-shadow: 0 150px 150px #e945e333;
             transition: 0.5s;
             &:hover{
