@@ -3,10 +3,7 @@ import CustomHook from './CustomHook';
 
 function Contacts() {
   const [listContacts] = useState([
-    {
-      title: '🏠 Home',
-      value: '55302-D , 3 Bellamy Place Dahlonega, GA 30533',
-    },
+
     {
       title: '☎️ Phone',
       value: '(706)300-2779',
@@ -35,7 +32,7 @@ function Contacts() {
       🤝 Get in Touch
       </div>
       <div className='des' ref={(el) => el && divs.current.push(el)}>
-        <p style={{ display: 'flex', justifyContent: 'center' }}>Let's connect! Whether you prefer the cozy feel of 🏠 home, a friendly ☎️ call, a quick ✉️ email, or a professional touch on 🌐 LinkedIn</p>
+        <p style={{ display: 'flex', justifyContent: 'center' }}>Let's connect!  friendly ☎️ call, a quick ✉️ email, or a professional touch on 🌐 LinkedIn</p>
       </div>
       <div className='list' ref={(el) => el && divs.current.push(el)}>
         {listContacts.map((value, key) => (
@@ -45,13 +42,7 @@ function Contacts() {
               <div>
                 <a href={`mailto:${value.value}`}>{value.value}</a>
               </div>
-            ) : value.title === '🏠 Home' ? (
-              <div>
-                <a href='#' onClick={() => openGoogleMaps(value.value)}>
-                  {value.value}
-                </a>
-              </div>
-            ) : value.title === '☎️ Phone' ? (
+            )  : value.title === '☎️ Phone' ? (
               <div>
                 <a href={`tel:${value.value}`}>{value.value}</a>
               </div>

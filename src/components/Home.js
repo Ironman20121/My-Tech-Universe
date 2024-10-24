@@ -8,11 +8,12 @@ return (
     <section ref={scrollTab} className='home'>
         <div className="content">
             <div className="name">
-                I AM <span> KUNDAN </span>
+                I AM <span> KUNDAN  </span>
             </div>
             <div className="des">
             
-            <p>Hello! 👋 I'm Saikundan Sudapalli, an enthusiastic Computer Science master's student with a robust background in C++ and Python development and two years of hands-on experience at TCS. Specialized in customizing trading platforms for the Multi Commodity Exchange client, I thrive in dynamic environments. My passion lies in Artificial Intelligence and Machine Learning, bringing practical skills in developing algorithms and models. Beyond that, I'm venturing into Quantum Computing, eager to apply my development skills, and exploring Cybersecurity to implement best practices in safeguarding digital assets. Let's connect and delve into the multifaceted world of technology together! 🌟 #TechEnthusiast #AI #ML #QuantumComputing #SoftwareDeveloper #CyberSecurity 🚀</p>
+            <p>Everything we study is built upon the lifelong work of individuals who have changed the course of history. One day, I aspire to contribute knowledge that gives my life meaning through research and teaching.</p>
+            <p>My research interests include Large Language Models (LLMs), Computer Vision, Machine Learning, Quantum Computing, Human-Computer Interaction, Operating Systems, and Software Threat Analysis</p>
             </div>
             
             <a href="/My-Tech-Universe/resume.pdf" target="_blank" rel="noopener noreferrer" className='animation active '>

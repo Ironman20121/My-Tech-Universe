@@ -9,6 +9,14 @@ function Skills() {
   CustomHook(scrollTab, divs);
 const [listSkills] = useState([
  {
+
+  name :'Reverse Engineering',
+  des :'Learned x64 and ARM64 assembly languages.Analyzed binaries using Ghidra, Cutter, and debugging tools like GDB, EDB, and WinDbg.Conducted malware analysis, including a study on the Anubis banking trojan',
+  keySkills:'Arrach 64,X86,Ghidra,Cutter,EDB,WinDbg ,jadx'  
+
+ },
+ 
+  {    
     name: 'C/C++',
     des:"Greetings! 👋 I'm a C++ enthusiast with two years of hands-on experience. From laying the groundwork during my undergrad to thriving in the dynamic environment of TCS, my C++ journey has been quite the adventure. At TCS, I honed my skills in socket programming for a high-stakes MCX trading platform, mastering threading for optimal performance. Object-oriented programming and smart pointers became my go-to tools for crafting efficient and scalable solutions. With a strong foundation in the STL, I'm on a mission to elevate C++ development, one project at a time! 🚀👨‍💻 ",
     icon: '/My-Tech-Universe/icon_c++.svg' ,
@@ -65,7 +73,7 @@ const SkillsList = ({ keySkills}) => {
        🛠️ SKILLS 🛠️
        </div>
        <div className="des" ref={(el) => el && divs.current.push(el)}>
-      <p>Hello there! I'm a well-rounded programmer with a knack for diving into different languages, frameworks, and debugging tools. Think of me as a tech enthusiast who loves to explore and master various aspects of the programming world. Here's a quick peek into what I bring to the table</p>
+      <p>Hello there! I'm tech enthusiast who loves to explore and master various aspects of the programming world.</p>
        </div>
        <div className="list">
         {
